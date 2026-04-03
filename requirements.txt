@@ -9,3 +9,4 @@ tqdm>=4.65.0
 seaborn>=0.12.0
 transformers>=4.38.0
 safetensors>=0.4.0
+anthropic>=0.42.0
