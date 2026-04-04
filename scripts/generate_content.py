@@ -38,8 +38,8 @@ import anthropic
 
 TAGS = {
     # Your accounts
-    "author": "@your_x_handle",           # <-- CHANGE THIS to your X handle
-    "author_name": "Your Name",            # <-- CHANGE THIS to your name
+    "author": "@SpinGlassAI",
+    "author_name": "SpinGlassAI",
     "blog_url": "https://yourblog.com",    # <-- CHANGE THIS to your blog URL
     "github_repo": "https://github.com/parrishcorcoran/BitNet-Spin-Glass",
 
