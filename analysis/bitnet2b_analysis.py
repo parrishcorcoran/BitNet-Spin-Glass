@@ -28,7 +28,7 @@ def load_bitnet_model() -> dict[str, torch.Tensor]:
     print("Loading microsoft/bitnet-b1.58-2B-4T-bf16 ...")
     model = AutoModelForCausalLM.from_pretrained(
         "microsoft/bitnet-b1.58-2B-4T-bf16",
-        torch_dtype=torch.bfloat16,
+        dtype=torch.bfloat16,
     )
     # Extract all 2D weight matrices
     weights: dict[str, torch.Tensor] = {}
