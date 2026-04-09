@@ -1,0 +1,220 @@
+You don't have a GPU available to load the model, the inference will be slow because of weight unpacking
+Loading microsoft/bitnet-b1.58-2B-4T-bf16 ...
+Loading weights:   0%|          | 0/332 [00:00<?, ?it/s]Loading weights: 100%|██████████| 332/332 [00:00<00:00, 19390.22it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Extracted 211 weight matrices
+Analyzing layers:   0%|          | 0/211 [00:00<?, ?it/s]Analyzing layers:   0%|          | 1/211 [1:16:16<266:58:32, 4576.72s/it]Analyzing layers:   1%|          | 2/211 [1:24:34<126:24:31, 2177.37s/it]Analyzing layers:   1%|▏         | 3/211 [1:25:33<69:54:42, 1210.01s/it] Analyzing layers:   2%|▏         | 4/211 [1:26:34<43:29:30, 756.38s/it] Analyzing layers:   2%|▏         | 5/211 [1:34:13<37:08:58, 649.22s/it]Analyzing layers:   3%|▎         | 6/211 [2:09:46<65:41:50, 1153.71s/it]Analyzing layers:   3%|▎         | 7/211 [2:49:04<87:41:16, 1547.43s/it]Analyzing layers:   4%|▍         | 8/211 [3:28:24<101:50:59, 1806.20s/it]Analyzing layers:   4%|▍         | 9/211 [3:35:49<77:28:09, 1380.64s/it] Analyzing layers:   5%|▍         | 10/211 [3:36:47<54:17:01, 972.25s/it]Analyzing layers:   5%|▌         | 11/211 [3:37:50<38:33:28, 694.04s/it]Analyzing layers:   6%|▌         | 12/211 [3:45:41<34:36:05, 625.96s/it]Analyzing layers:   6%|▌         | 13/211 [4:24:39<62:57:27, 1144.69s/it]Analyzing layers:   7%|▋         | 14/211 [5:02:29<81:14:30, 1484.62s/it]Analyzing layers:   7%|▋         | 15/211 [5:26:04<79:40:45, 1463.50s/it]Analyzing layers:   8%|▊         | 16/211 [5:29:13<58:30:28, 1080.15s/it]Analyzing layers:   8%|▊         | 17/211 [5:29:39<41:07:32, 763.15s/it] Analyzing layers:   9%|▊         | 18/211 [5:30:08<29:04:39, 542.38s/it]Analyzing layers:   9%|▉         | 19/211 [5:34:00<23:57:24, 449.19s/it]Analyzing layers:   9%|▉         | 20/211 [5:51:58<33:51:10, 638.07s/it]Analyzing layers:  10%|▉         | 21/211 [6:12:04<42:39:55, 808.40s/it]Analyzing layers:  10%|█         | 22/211 [6:32:21<48:53:01, 931.12s/it]Analyzing layers:  11%|█         | 23/211 [6:35:44<37:13:08, 712.71s/it]Analyzing layers:  11%|█▏        | 24/211 [6:36:09<26:18:07, 506.35s/it]Analyzing layers:  12%|█▏        | 25/211 [6:36:37<18:44:24, 362.71s/it]Analyzing layers:  12%|█▏        | 26/211 [6:39:54<16:04:42, 312.88s/it]Analyzing layers:  13%|█▎        | 27/211 [6:59:00<28:46:42, 563.05s/it]Analyzing layers:  13%|█▎        | 28/211 [7:18:57<38:17:25, 753.25s/it]Analyzing layers:  14%|█▎        | 29/211 [7:39:18<45:10:34, 893.59s/it]Analyzing layers:  14%|█▍        | 30/211 [7:42:27<34:18:07, 682.25s/it]Analyzing layers:  15%|█▍        | 31/211 [7:42:53<24:15:16, 485.09s/it]Analyzing layers:  15%|█▌        | 32/211 [7:43:19<17:16:40, 347.49s/it]Analyzing layers:  16%|█▌        | 33/211 [7:46:34<14:55:14, 301.77s/it]Analyzing layers:  16%|█▌        | 34/211 [8:07:35<28:58:44, 589.40s/it]Analyzing layers:  17%|█▋        | 35/211 [8:27:59<38:07:28, 779.82s/it]Analyzing layers:  17%|█▋        | 36/211 [8:47:53<43:57:15, 904.20s/it]Analyzing layers:  18%|█▊        | 37/211 [8:51:02<33:20:04, 689.68s/it]Analyzing layers:  18%|█▊        | 38/211 [8:51:29<23:35:16, 490.85s/it]Analyzing layers:  18%|█▊        | 39/211 [8:52:02<16:53:04, 353.40s/it]Analyzing layers:  19%|█▉        | 40/211 [8:55:37<14:48:38, 311.80s/it]Analyzing layers:  19%|█▉        | 41/211 [9:14:48<26:37:18, 563.75s/it]Analyzing layers:  20%|█▉        | 42/211 [9:34:03<34:47:25, 741.10s/it]Analyzing layers:  20%|██        | 43/211 [9:54:13<41:09:02, 881.80s/it]Analyzing layers:  21%|██        | 44/211 [9:57:58<31:45:55, 684.77s/it]Analyzing layers:  21%|██▏       | 45/211 [9:58:25<22:28:43, 487.49s/it]Analyzing layers:  22%|██▏       | 46/211 [9:58:54<16:01:49, 349.75s/it]Analyzing layers:  22%|██▏       | 47/211 [10:02:36<14:11:34, 311.55s/it]Analyzing layers:  23%|██▎       | 48/211 [10:22:45<26:17:12, 580.57s/it]Analyzing layers:  23%|██▎       | 49/211 [10:42:28<34:15:31, 761.30s/it]Analyzing layers:  24%|██▎       | 50/211 [11:02:20<39:49:41, 890.57s/it]Analyzing layers:  24%|██▍       | 51/211 [11:05:38<30:21:19, 683.00s/it]Analyzing layers:  25%|██▍       | 52/211 [11:06:03<21:26:33, 485.50s/it]Analyzing layers:  25%|██▌       | 53/211 [11:06:36<15:21:10, 349.81s/it]Analyzing layers:  26%|██▌       | 54/211 [11:10:05<13:24:39, 307.51s/it]Analyzing layers:  26%|██▌       | 55/211 [11:30:08<24:57:55, 576.12s/it]Analyzing layers:  27%|██▋       | 56/211 [11:50:26<33:05:45, 768.68s/it]Analyzing layers:  27%|██▋       | 57/211 [12:11:14<39:02:12, 912.55s/it]Analyzing layers:  27%|██▋       | 58/211 [12:14:17<29:29:02, 693.74s/it]Analyzing layers:  28%|██▊       | 59/211 [12:14:46<20:52:05, 494.25s/it]Analyzing layers:  28%|██▊       | 60/211 [12:15:23<14:58:42, 357.10s/it]Analyzing layers:  29%|██▉       | 61/211 [12:18:56<13:04:13, 313.69s/it]Analyzing layers:  29%|██▉       | 62/211 [12:38:47<23:53:14, 577.15s/it]Analyzing layers:  30%|██▉       | 63/211 [13:00:11<32:26:10, 788.99s/it]Analyzing layers:  30%|███       | 64/211 [13:21:50<38:28:23, 942.20s/it]Analyzing layers:  31%|███       | 65/211 [13:25:11<29:10:57, 719.57s/it]Analyzing layers:  31%|███▏      | 66/211 [13:25:42<20:40:02, 513.12s/it]Analyzing layers:  32%|███▏      | 67/211 [13:26:16<14:46:44, 369.48s/it]Analyzing layers:  32%|███▏      | 68/211 [13:30:16<13:07:59, 330.63s/it]Analyzing layers:  33%|███▎      | 69/211 [13:35:41<12:58:00, 328.74s/it]Analyzing layers:  33%|███▎      | 70/211 [13:40:22<12:18:56, 314.44s/it]Analyzing layers:  34%|███▎      | 71/211 [13:45:00<11:48:14, 303.53s/it]Analyzing layers:  34%|███▍      | 72/211 [13:45:54<8:49:51, 228.71s/it] Analyzing layers:  35%|███▍      | 73/211 [13:46:04<6:15:11, 163.13s/it]Analyzing layers:  35%|███▌      | 74/211 [13:46:14<4:27:52, 117.32s/it]Analyzing layers:  36%|███▌      | 75/211 [13:47:10<3:44:06, 98.87s/it] Analyzing layers:  36%|███▌      | 76/211 [13:51:51<5:45:27, 153.54s/it]Analyzing layers:  36%|███▋      | 77/211 [13:56:34<7:09:17, 192.22s/it]Analyzing layers:  37%|███▋      | 78/211 [14:01:10<8:01:42, 217.31s/it]Analyzing layers:  37%|███▋      | 79/211 [14:02:05<6:11:00, 168.64s/it]Analyzing layers:  38%|███▊      | 80/211 [14:02:14<4:24:02, 120.93s/it]Analyzing layers:  38%|███▊      | 81/211 [14:02:25<3:10:02, 87.71s/it] Analyzing layers:  39%|███▉      | 82/211 [14:03:20<2:48:04, 78.17s/it]Analyzing layers:  39%|███▉      | 83/211 [14:08:04<4:57:58, 139.67s/it]Analyzing layers:  40%|███▉      | 84/211 [14:12:47<6:26:50, 182.76s/it]Analyzing layers:  40%|████      | 85/211 [14:17:23<7:22:26, 210.69s/it]Analyzing layers:  41%|████      | 86/211 [14:18:17<5:40:52, 163.62s/it]Analyzing layers:  41%|████      | 87/211 [14:18:26<4:02:45, 117.46s/it]Analyzing layers:  42%|████▏     | 88/211 [14:18:37<2:54:52, 85.30s/it] Analyzing layers:  42%|████▏     | 89/211 [14:19:33<2:35:30, 76.48s/it]Analyzing layers:  43%|████▎     | 90/211 [14:24:15<4:39:06, 138.40s/it]Analyzing layers:  43%|████▎     | 91/211 [14:28:53<6:00:27, 180.23s/it]Analyzing layers:  44%|████▎     | 92/211 [14:33:33<6:56:23, 209.95s/it]Analyzing layers:  44%|████▍     | 93/211 [14:34:26<5:20:24, 162.92s/it]Analyzing layers:  45%|████▍     | 94/211 [14:34:35<3:47:51, 116.85s/it]Analyzing layers:  45%|████▌     | 95/211 [14:34:45<2:43:52, 84.76s/it] Analyzing layers:  45%|████▌     | 96/211 [14:35:40<2:25:22, 75.85s/it]Analyzing layers:  46%|████▌     | 97/211 [14:40:24<4:22:30, 138.17s/it]Analyzing layers:  46%|████▋     | 98/211 [14:45:05<5:40:55, 181.02s/it]Analyzing layers:  47%|████▋     | 99/211 [14:49:41<6:31:09, 209.55s/it]Analyzing layers:  47%|████▋     | 100/211 [14:50:35<5:01:35, 163.02s/it]Analyzing layers:  48%|████▊     | 101/211 [14:50:45<3:34:36, 117.06s/it]Analyzing layers:  48%|████▊     | 102/211 [14:50:55<2:34:23, 84.98s/it] Analyzing layers:  49%|████▉     | 103/211 [14:51:51<2:17:13, 76.24s/it]Analyzing layers:  49%|████▉     | 104/211 [14:56:35<4:06:53, 138.44s/it]Analyzing layers:  50%|████▉     | 105/211 [15:01:19<5:22:09, 182.36s/it]Analyzing layers:  50%|█████     | 106/211 [15:05:57<6:09:18, 211.03s/it]Analyzing layers:  51%|█████     | 107/211 [15:06:52<4:44:29, 164.13s/it]Analyzing layers:  51%|█████     | 108/211 [15:07:02<3:22:11, 117.78s/it]Analyzing layers:  52%|█████▏    | 109/211 [15:07:12<2:25:29, 85.58s/it] Analyzing layers:  52%|█████▏    | 110/211 [15:08:08<2:09:02, 76.66s/it]Analyzing layers:  53%|█████▎    | 111/211 [15:12:50<3:50:30, 138.31s/it]Analyzing layers:  53%|█████▎    | 112/211 [15:17:31<4:58:55, 181.17s/it]Analyzing layers:  54%|█████▎    | 113/211 [15:22:05<5:41:27, 209.05s/it]Analyzing layers:  54%|█████▍    | 114/211 [15:22:59<4:22:45, 162.53s/it]Analyzing layers:  55%|█████▍    | 115/211 [15:23:09<3:06:39, 116.66s/it]Analyzing layers:  55%|█████▍    | 116/211 [15:23:19<2:14:04, 84.67s/it] Analyzing layers:  55%|█████▌    | 117/211 [15:24:14<1:58:50, 75.85s/it]Analyzing layers:  56%|█████▌    | 118/211 [15:29:00<3:35:12, 138.84s/it]Analyzing layers:  56%|█████▋    | 119/211 [15:33:44<4:39:44, 182.44s/it]Analyzing layers:  57%|█████▋    | 120/211 [15:38:22<5:20:03, 211.03s/it]Analyzing layers:  57%|█████▋    | 121/211 [15:39:17<4:06:20, 164.23s/it]Analyzing layers:  58%|█████▊    | 122/211 [15:39:27<2:54:50, 117.88s/it]Analyzing layers:  58%|█████▊    | 123/211 [15:39:37<2:05:37, 85.65s/it] Analyzing layers:  59%|█████▉    | 124/211 [15:40:33<1:51:23, 76.82s/it]Analyzing layers:  59%|█████▉    | 125/211 [15:45:19<3:20:01, 139.55s/it]Analyzing layers:  60%|█████▉    | 126/211 [15:49:58<4:16:54, 181.35s/it]Analyzing layers:  60%|██████    | 127/211 [15:54:35<4:54:05, 210.06s/it]Analyzing layers:  61%|██████    | 128/211 [15:55:29<3:45:43, 163.18s/it]Analyzing layers:  61%|██████    | 129/211 [15:55:39<2:40:03, 117.11s/it]Analyzing layers:  62%|██████▏   | 130/211 [15:55:49<1:54:53, 85.11s/it] Analyzing layers:  62%|██████▏   | 131/211 [15:56:46<1:42:12, 76.66s/it]Analyzing layers:  63%|██████▎   | 132/211 [16:01:33<3:03:47, 139.58s/it]Analyzing layers:  63%|██████▎   | 133/211 [16:06:16<3:57:30, 182.70s/it]Analyzing layers:  64%|██████▎   | 134/211 [16:10:55<4:31:31, 211.58s/it]Analyzing layers:  64%|██████▍   | 135/211 [16:11:49<3:28:07, 164.31s/it]Analyzing layers:  64%|██████▍   | 136/211 [16:11:58<2:27:19, 117.86s/it]Analyzing layers:  65%|██████▍   | 137/211 [16:12:08<1:45:22, 85.45s/it] Analyzing layers:  65%|██████▌   | 138/211 [16:13:04<1:33:12, 76.61s/it]Analyzing layers:  66%|██████▌   | 139/211 [16:17:49<2:47:04, 139.23s/it]Analyzing layers:  66%|██████▋   | 140/211 [16:22:27<3:33:43, 180.62s/it]Analyzing layers:  67%|██████▋   | 141/211 [16:27:01<4:03:32, 208.76s/it]Analyzing layers:  67%|██████▋   | 142/211 [16:27:56<3:06:55, 162.54s/it]Analyzing layers:  68%|██████▊   | 143/211 [16:28:06<2:12:26, 116.85s/it]Analyzing layers:  68%|██████▊   | 144/211 [16:28:16<1:34:47, 84.88s/it] Analyzing layers:  69%|██████▊   | 145/211 [16:29:12<1:23:45, 76.14s/it]Analyzing layers:  69%|██████▉   | 146/211 [16:33:58<2:30:40, 139.09s/it]Analyzing layers:  70%|██████▉   | 147/211 [16:38:39<3:13:42, 181.60s/it]Analyzing layers:  70%|███████   | 148/211 [16:43:16<3:40:40, 210.17s/it]Analyzing layers:  71%|███████   | 149/211 [16:44:10<2:48:56, 163.48s/it]Analyzing layers:  71%|███████   | 150/211 [16:44:20<1:59:21, 117.41s/it]Analyzing layers:  72%|███████▏  | 151/211 [16:44:30<1:25:16, 85.27s/it] Analyzing layers:  72%|███████▏  | 152/211 [16:45:26<1:15:09, 76.43s/it]Analyzing layers:  73%|███████▎  | 153/211 [16:50:06<2:12:57, 137.55s/it]Analyzing layers:  73%|███████▎  | 154/211 [16:54:48<2:51:53, 180.93s/it]Analyzing layers:  73%|███████▎  | 155/211 [16:59:23<3:15:00, 208.94s/it]Analyzing layers:  74%|███████▍  | 156/211 [17:00:16<2:28:50, 162.38s/it]Analyzing layers:  74%|███████▍  | 157/211 [17:00:27<1:45:06, 116.79s/it]Analyzing layers:  75%|███████▍  | 158/211 [17:00:37<1:14:59, 84.91s/it] Analyzing layers:  75%|███████▌  | 159/211 [17:01:33<1:05:50, 75.98s/it]Analyzing layers:  76%|███████▌  | 160/211 [17:06:17<1:57:45, 138.54s/it]Analyzing layers:  76%|███████▋  | 161/211 [17:10:57<2:30:54, 181.10s/it]Analyzing layers:  77%|███████▋  | 162/211 [17:15:33<2:51:00, 209.40s/it]Analyzing layers:  77%|███████▋  | 163/211 [17:16:28<2:10:36, 163.26s/it]Analyzing layers:  78%|███████▊  | 164/211 [17:16:38<1:31:48, 117.21s/it]Analyzing layers:  78%|███████▊  | 165/211 [17:16:48<1:05:13, 85.09s/it] Analyzing layers:  79%|███████▊  | 166/211 [17:17:44<57:16, 76.37s/it]  Analyzing layers:  79%|███████▉  | 167/211 [17:22:26<1:41:10, 137.97s/it]Analyzing layers:  80%|███████▉  | 168/211 [17:27:13<2:10:49, 182.54s/it]Analyzing layers:  80%|████████  | 169/211 [17:31:48<2:27:13, 210.32s/it]Analyzing layers:  81%|████████  | 170/211 [17:32:43<1:51:58, 163.86s/it]Analyzing layers:  81%|████████  | 171/211 [17:32:53<1:18:27, 117.68s/it]Analyzing layers:  82%|████████▏ | 172/211 [17:33:03<55:31, 85.43s/it]   Analyzing layers:  82%|████████▏ | 173/211 [17:33:59<48:26, 76.48s/it]Analyzing layers:  82%|████████▏ | 174/211 [17:38:41<1:25:14, 138.23s/it]Analyzing layers:  83%|████████▎ | 175/211 [17:43:28<1:49:45, 182.93s/it]Analyzing layers:  83%|████████▎ | 176/211 [17:48:01<2:02:23, 209.82s/it]Analyzing layers:  84%|████████▍ | 177/211 [17:48:56<1:32:29, 163.23s/it]Analyzing layers:  84%|████████▍ | 178/211 [17:49:05<1:04:27, 117.21s/it]Analyzing layers:  85%|████████▍ | 179/211 [17:49:16<45:23, 85.11s/it]   Analyzing layers:  85%|████████▌ | 180/211 [17:50:12<39:29, 76.44s/it]Analyzing layers:  86%|████████▌ | 181/211 [17:55:00<1:10:00, 140.01s/it]Analyzing layers:  86%|████████▋ | 182/211 [17:59:46<1:28:49, 183.76s/it]Analyzing layers:  87%|████████▋ | 183/211 [18:04:25<1:39:03, 212.25s/it]Analyzing layers:  87%|████████▋ | 184/211 [18:05:18<1:14:06, 164.69s/it]Analyzing layers:  88%|████████▊ | 185/211 [18:05:28<51:13, 118.20s/it]  Analyzing layers:  88%|████████▊ | 186/211 [18:05:38<35:44, 85.77s/it] Analyzing layers:  89%|████████▊ | 187/211 [18:06:34<30:43, 76.81s/it]Analyzing layers:  89%|████████▉ | 188/211 [18:11:15<52:56, 138.11s/it]Analyzing layers:  90%|████████▉ | 189/211 [18:15:58<1:06:34, 181.58s/it]Analyzing layers:  90%|█████████ | 190/211 [18:20:39<1:13:57, 211.30s/it]Analyzing layers:  91%|█████████ | 191/211 [18:21:33<54:41, 164.09s/it]  Analyzing layers:  91%|█████████ | 192/211 [18:21:43<37:20, 117.95s/it]Analyzing layers:  91%|█████████▏| 193/211 [18:21:53<25:41, 85.65s/it] Analyzing layers:  92%|█████████▏| 194/211 [18:22:48<21:38, 76.40s/it]Analyzing layers:  92%|█████████▏| 195/211 [18:27:34<37:07, 139.24s/it]Analyzing layers:  93%|█████████▎| 196/211 [18:32:19<45:44, 182.94s/it]Analyzing layers:  93%|█████████▎| 197/211 [18:36:58<49:24, 211.73s/it]Analyzing layers:  94%|█████████▍| 198/211 [18:37:52<35:36, 164.31s/it]Analyzing layers:  94%|█████████▍| 199/211 [18:38:01<23:35, 117.94s/it]Analyzing layers:  95%|█████████▍| 200/211 [18:38:11<15:40, 85.48s/it] Analyzing layers:  95%|█████████▌| 201/211 [18:39:07<12:46, 76.62s/it]Analyzing layers:  96%|█████████▌| 202/211 [18:43:48<20:42, 138.02s/it]Analyzing layers:  96%|█████████▌| 203/211 [18:48:29<24:05, 180.66s/it]Analyzing layers:  97%|█████████▋| 204/211 [18:53:03<24:21, 208.83s/it]Analyzing layers:  97%|█████████▋| 205/211 [18:53:59<16:17, 162.96s/it]Analyzing layers:  98%|█████████▊| 206/211 [18:54:09<09:45, 117.03s/it]Analyzing layers:  98%|█████████▊| 207/211 [18:54:19<05:39, 84.92s/it] Analyzing layers:  99%|█████████▊| 208/211 [18:55:14<03:48, 76.04s/it]Analyzing layers:  99%|█████████▉| 209/211 [18:59:56<04:35, 137.89s/it]Analyzing layers: 100%|█████████▉| 210/211 [19:04:37<03:00, 180.57s/it]Analyzing layers: 100%|██████████| 211/211 [19:09:09<00:00, 208.06s/it]Analyzing layers: 100%|██████████| 211/211 [19:09:09<00:00, 326.77s/it]
+  model.embed_tokens.weight: shape=[128256, 2560], vacancy=0.532, frustration=0.3037
+  model.layers.0.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.337, frustration=0.4620
+  model.layers.0.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.194, frustration=0.4444
+  model.layers.0.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.145, frustration=0.4233
+  model.layers.0.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.524, frustration=0.4359
+  model.layers.0.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.178, frustration=0.4135
+  model.layers.0.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.147, frustration=0.4849
+  model.layers.0.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.123, frustration=0.4822
+  model.layers.1.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.567, frustration=0.4461
+  model.layers.1.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.215, frustration=0.3612
+  model.layers.1.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.136, frustration=0.4658
+  model.layers.1.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.213, frustration=0.4727
+  model.layers.1.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.667, frustration=0.4601
+  model.layers.1.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.676, frustration=0.4682
+  model.layers.1.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.516, frustration=0.4749
+  model.layers.2.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.437, frustration=0.4582
+  model.layers.2.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.160, frustration=0.4102
+  model.layers.2.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.076, frustration=0.4712
+  model.layers.2.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.142, frustration=0.4761
+  model.layers.2.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.436, frustration=0.4626
+  model.layers.2.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.485, frustration=0.4764
+  model.layers.2.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.342, frustration=0.4791
+  model.layers.3.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.389, frustration=0.4570
+  model.layers.3.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.157, frustration=0.4131
+  model.layers.3.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.077, frustration=0.4711
+  model.layers.3.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.130, frustration=0.4771
+  model.layers.3.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.279, frustration=0.4679
+  model.layers.3.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.319, frustration=0.4758
+  model.layers.3.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.218, frustration=0.4781
+  model.layers.4.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.306, frustration=0.4538
+  model.layers.4.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.112, frustration=0.4254
+  model.layers.4.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.060, frustration=0.4747
+  model.layers.4.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.100, frustration=0.4793
+  model.layers.4.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.203, frustration=0.4705
+  model.layers.4.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.228, frustration=0.4760
+  model.layers.4.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.160, frustration=0.4739
+  model.layers.5.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.249, frustration=0.4465
+  model.layers.5.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.109, frustration=0.4163
+  model.layers.5.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.059, frustration=0.4701
+  model.layers.5.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.108, frustration=0.4760
+  model.layers.5.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.153, frustration=0.4671
+  model.layers.5.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.172, frustration=0.4754
+  model.layers.5.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.121, frustration=0.4773
+  model.layers.6.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.211, frustration=0.4557
+  model.layers.6.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.089, frustration=0.4258
+  model.layers.6.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.051, frustration=0.4738
+  model.layers.6.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.081, frustration=0.4793
+  model.layers.6.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.124, frustration=0.4630
+  model.layers.6.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.139, frustration=0.4741
+  model.layers.6.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.099, frustration=0.4752
+  model.layers.7.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.200, frustration=0.4486
+  model.layers.7.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.086, frustration=0.4275
+  model.layers.7.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.061, frustration=0.4715
+  model.layers.7.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.098, frustration=0.4775
+  model.layers.7.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.124, frustration=0.4639
+  model.layers.7.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.137, frustration=0.4723
+  model.layers.7.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.100, frustration=0.4749
+  model.layers.8.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.207, frustration=0.4464
+  model.layers.8.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.089, frustration=0.4204
+  model.layers.8.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.050, frustration=0.4705
+  model.layers.8.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.104, frustration=0.4774
+  model.layers.8.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.111, frustration=0.4679
+  model.layers.8.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.122, frustration=0.4724
+  model.layers.8.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.089, frustration=0.4775
+  model.layers.9.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.172, frustration=0.4428
+  model.layers.9.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.075, frustration=0.4066
+  model.layers.9.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.048, frustration=0.4718
+  model.layers.9.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.078, frustration=0.4782
+  model.layers.9.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.102, frustration=0.4708
+  model.layers.9.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.111, frustration=0.4712
+  model.layers.9.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.079, frustration=0.4772
+  model.layers.10.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.160, frustration=0.4510
+  model.layers.10.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.076, frustration=0.4231
+  model.layers.10.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.044, frustration=0.4731
+  model.layers.10.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.066, frustration=0.4786
+  model.layers.10.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.095, frustration=0.4712
+  model.layers.10.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.102, frustration=0.4732
+  model.layers.10.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.071, frustration=0.4779
+  model.layers.11.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.152, frustration=0.4496
+  model.layers.11.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.074, frustration=0.4181
+  model.layers.11.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.046, frustration=0.4739
+  model.layers.11.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.064, frustration=0.4785
+  model.layers.11.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.094, frustration=0.4693
+  model.layers.11.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.099, frustration=0.4726
+  model.layers.11.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.073, frustration=0.4790
+  model.layers.12.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.125, frustration=0.4468
+  model.layers.12.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.065, frustration=0.4165
+  model.layers.12.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.045, frustration=0.4683
+  model.layers.12.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.069, frustration=0.4766
+  model.layers.12.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.092, frustration=0.4701
+  model.layers.12.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.096, frustration=0.4718
+  model.layers.12.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.072, frustration=0.4768
+  model.layers.13.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.137, frustration=0.4441
+  model.layers.13.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.063, frustration=0.4090
+  model.layers.13.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.040, frustration=0.4733
+  model.layers.13.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.060, frustration=0.4782
+  model.layers.13.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.090, frustration=0.4718
+  model.layers.13.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.097, frustration=0.4716
+  model.layers.13.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.073, frustration=0.4777
+  model.layers.14.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.130, frustration=0.4563
+  model.layers.14.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.062, frustration=0.4294
+  model.layers.14.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.040, frustration=0.4744
+  model.layers.14.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.076, frustration=0.4786
+  model.layers.14.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.086, frustration=0.4724
+  model.layers.14.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.093, frustration=0.4751
+  model.layers.14.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.070, frustration=0.4788
+  model.layers.15.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.140, frustration=0.4511
+  model.layers.15.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.062, frustration=0.4156
+  model.layers.15.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.040, frustration=0.4749
+  model.layers.15.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.060, frustration=0.4782
+  model.layers.15.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.086, frustration=0.4710
+  model.layers.15.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.094, frustration=0.4748
+  model.layers.15.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.067, frustration=0.4802
+  model.layers.16.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.100, frustration=0.4574
+  model.layers.16.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.054, frustration=0.4279
+  model.layers.16.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.039, frustration=0.4751
+  model.layers.16.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.059, frustration=0.4791
+  model.layers.16.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.087, frustration=0.4744
+  model.layers.16.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.096, frustration=0.4743
+  model.layers.16.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.070, frustration=0.4812
+  model.layers.17.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.114, frustration=0.4600
+  model.layers.17.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.059, frustration=0.4279
+  model.layers.17.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.037, frustration=0.4769
+  model.layers.17.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.053, frustration=0.4799
+  model.layers.17.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.091, frustration=0.4757
+  model.layers.17.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.100, frustration=0.4729
+  model.layers.17.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.074, frustration=0.4804
+  model.layers.18.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.152, frustration=0.4485
+  model.layers.18.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.065, frustration=0.4231
+  model.layers.18.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.042, frustration=0.4768
+  model.layers.18.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.072, frustration=0.4789
+  model.layers.18.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.093, frustration=0.4740
+  model.layers.18.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.105, frustration=0.4703
+  model.layers.18.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.077, frustration=0.4798
+  model.layers.19.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.145, frustration=0.4468
+  model.layers.19.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.066, frustration=0.4217
+  model.layers.19.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.037, frustration=0.4777
+  model.layers.19.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.059, frustration=0.4816
+  model.layers.19.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.100, frustration=0.4746
+  model.layers.19.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.111, frustration=0.4704
+  model.layers.19.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.083, frustration=0.4786
+  model.layers.20.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.130, frustration=0.4588
+  model.layers.20.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.061, frustration=0.4315
+  model.layers.20.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.044, frustration=0.4768
+  model.layers.20.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.068, frustration=0.4810
+  model.layers.20.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.099, frustration=0.4740
+  model.layers.20.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.111, frustration=0.4723
+  model.layers.20.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.082, frustration=0.4801
+  model.layers.21.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.167, frustration=0.4471
+  model.layers.21.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.070, frustration=0.4287
+  model.layers.21.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.041, frustration=0.4751
+  model.layers.21.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.071, frustration=0.4792
+  model.layers.21.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.090, frustration=0.4727
+  model.layers.21.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.104, frustration=0.4742
+  model.layers.21.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.075, frustration=0.4806
+  model.layers.22.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.183, frustration=0.4387
+  model.layers.22.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.071, frustration=0.4184
+  model.layers.22.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.043, frustration=0.4766
+  model.layers.22.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.083, frustration=0.4733
+  model.layers.22.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.079, frustration=0.4749
+  model.layers.22.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.089, frustration=0.4734
+  model.layers.22.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.064, frustration=0.4809
+  model.layers.23.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.149, frustration=0.4516
+  model.layers.23.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.070, frustration=0.4285
+  model.layers.23.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.044, frustration=0.4731
+  model.layers.23.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.067, frustration=0.4818
+  model.layers.23.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.079, frustration=0.4731
+  model.layers.23.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.089, frustration=0.4746
+  model.layers.23.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.063, frustration=0.4818
+  model.layers.24.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.141, frustration=0.4476
+  model.layers.24.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.079, frustration=0.4227
+  model.layers.24.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.044, frustration=0.4708
+  model.layers.24.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.061, frustration=0.4813
+  model.layers.24.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.083, frustration=0.4731
+  model.layers.24.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.092, frustration=0.4753
+  model.layers.24.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.067, frustration=0.4820
+  model.layers.25.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.190, frustration=0.4477
+  model.layers.25.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.077, frustration=0.4325
+  model.layers.25.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.051, frustration=0.4753
+  model.layers.25.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.099, frustration=0.4793
+  model.layers.25.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.079, frustration=0.4740
+  model.layers.25.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.088, frustration=0.4761
+  model.layers.25.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.067, frustration=0.4827
+  model.layers.26.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.162, frustration=0.4471
+  model.layers.26.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.076, frustration=0.4309
+  model.layers.26.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.057, frustration=0.4746
+  model.layers.26.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.110, frustration=0.4800
+  model.layers.26.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.080, frustration=0.4742
+  model.layers.26.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.088, frustration=0.4759
+  model.layers.26.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.072, frustration=0.4834
+  model.layers.27.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.171, frustration=0.4448
+  model.layers.27.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.066, frustration=0.4320
+  model.layers.27.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.040, frustration=0.4756
+  model.layers.27.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.087, frustration=0.4809
+  model.layers.27.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.086, frustration=0.4732
+  model.layers.27.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.094, frustration=0.4731
+  model.layers.27.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.083, frustration=0.4832
+  model.layers.28.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.220, frustration=0.4497
+  model.layers.28.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.093, frustration=0.4314
+  model.layers.28.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.062, frustration=0.4619
+  model.layers.28.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.154, frustration=0.4717
+  model.layers.28.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.081, frustration=0.4711
+  model.layers.28.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.089, frustration=0.4642
+  model.layers.28.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.086, frustration=0.4803
+  model.layers.29.self_attn.q_proj.weight: shape=[2560, 2560], vacancy=0.315, frustration=0.4530
+  model.layers.29.self_attn.k_proj.weight: shape=[640, 2560], vacancy=0.157, frustration=0.4424
+  model.layers.29.self_attn.v_proj.weight: shape=[640, 2560], vacancy=0.247, frustration=0.4516
+  model.layers.29.self_attn.o_proj.weight: shape=[2560, 2560], vacancy=0.579, frustration=0.4236
+  model.layers.29.mlp.gate_proj.weight: shape=[6912, 2560], vacancy=0.091, frustration=0.4697
+  model.layers.29.mlp.up_proj.weight: shape=[6912, 2560], vacancy=0.103, frustration=0.4496
+  model.layers.29.mlp.down_proj.weight: shape=[2560, 6912], vacancy=0.124, frustration=0.4730
+
+Results saved to results/bitnet2b/layer_analysis.json
+Analyzed 211 layers
